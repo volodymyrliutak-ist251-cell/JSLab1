@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 2</title>
+    <script src="lab2-2.js"></script>
+</head>
+<body>
+    <h1>Лабораторна робота №1. Завдання 2</h1>
+    <p>Натисніть F12 -> Консоль (Console) для перегляду результатів.</p>
+
+    <script>
+        console.log("=== ТЕСТУВАННЯ РЕГУЛЯРНИХ ВИРАЗІВ ===");
+        console.log("isIPAddress('192.168.1.1'):", isIPAddress('192.168.1.1'));
+        console.log("findRGBA:", findRGBA("Колір: rgba(255, 99, 71, 0.8)"));
+        console.log("findHexColor:", findHexColor("Тест #FFF та #1a2b3c"));
+        console.log("findTags (p):", findTags("<div><p>Текст</p></div>", "p"));
+        console.log("findPosNum:", findPosNum("Числа: 10, -5, 6.75, 6"));
+        console.log("findDates:", findDates("Дата 2026-10-26"));
+        console.log("findEmail:", findEmail("Email: orest.volynskyi@nung.edu.ua"));
+    </script>
+</body>
+</html>
